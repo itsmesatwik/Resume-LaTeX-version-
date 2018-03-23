@@ -524,15 +524,16 @@
 
 % Define an environment for cventry
 \newenvironment{cventries}{
-\vspace*{-0.5cm}
+
   \begin{center}
 }{
   \end{center}
-  \vspace*{-0.5cm}
+  \vspace*{-0.35cm}
 }
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{
+\vspace*{-0.65cm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{12.5cm} R{4.5cm}}
@@ -549,7 +550,6 @@
   \begin{center}
 }{
   \end{center}
-  \vspace*{-1.5cm}
 }
 % Define a subentry of cv information
 % Usage: \cvsubentry{<position>}{<title>}{<date>}{<description>}
@@ -614,7 +614,7 @@
 }{
   \end{itemize}
   \end{justify}
-  \vspace{-0.3cm}
+  \vspace*{-0.15cm}
 }
 
 
